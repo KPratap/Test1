@@ -16,24 +16,31 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Yardi", "Index", "Yardi")</li>
+                    <li>@Html.ActionLink("RealPage", "Index", "RealPage")</li>
+                    <li>@Html.ActionLink("Entrata", "Index", "Entrata")</li>
+                    <li>@Html.ActionLink("ResMan", "Index", "ResMan")</li>
+                    <li>@Html.ActionLink("RentManager", "Index", "RentManager")</li>
+                    <li>@Html.ActionLink("DebtLogic", "Index", "DebtLogic")</li>
+
+
+
                 </ul>
                 <p class="nav navbar-text navbar-right">Hello, @User.Identity.Name!</p>
             </div>
+            @*<img src="~/Images/RRS_Logo_3-ColorLLC.png" alt="Logo" width="100" height="100" />*@
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
+        @*<footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        </footer>*@
     </div>
 
     @Scripts.Render("~/bundles/jquery")

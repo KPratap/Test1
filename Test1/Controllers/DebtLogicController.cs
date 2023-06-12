@@ -6,8 +6,9 @@ using System.Web.Mvc;
 
 namespace Test1.Controllers
 {
-    public class HomeController : Controller
+    public class DebtLogicController : Controller
     {
+        // GET: DebtLogic
         public ActionResult Index()
         {
             return View();

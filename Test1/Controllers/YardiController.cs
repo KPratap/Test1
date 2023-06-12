@@ -6,11 +6,13 @@ using System.Web.Mvc;
 
 namespace Test1.Controllers
 {
-    public class HomeController : Controller
+    public class YardiController : Controller
     {
+        // GET: Yardi
         public ActionResult Index()
         {
             return View();
         }
+
     }
 }

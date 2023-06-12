@@ -6,8 +6,9 @@ using System.Web.Mvc;
 
 namespace Test1.Controllers
 {
-    public class HomeController : Controller
+    public class EntrataController : Controller
     {
+        // GET: Entrata
         public ActionResult Index()
         {
             return View();
