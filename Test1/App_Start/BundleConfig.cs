@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Test1
+namespace RRSDashboard.Web
 {
     public class BundleConfig
     {
